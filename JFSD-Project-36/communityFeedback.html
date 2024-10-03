@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Feedback - Share Your Experiences & Connect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For social media icons -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">HealthiFy..</a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="healthResource.html">Health Resources</a></li>
+                <li><a href="wellnessProgram.html">Wellness Programs</a></li>
+                <li><a href="supportServices.html">Support services</a></li>
+                <li><a href="communityFeedback.html">Community Feedback</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">login/signup</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Community Feedback Section -->
+    <section class="community-feedback">
+        <div class="container">
+            <h1>Join Our Health & Fitness Community</h1>
+            <p>Share your experiences, ask questions, and connect with others to get feedback from the community.</p>
+
+            <!-- Post Feedback Form -->
+            <div class="feedback-form">
+                <h2>Share Your Feedback or Ask a Question</h2>
+                <form action="submitFeedback" method="POST">
+                    <textarea name="feedback" rows="6" placeholder="Share your experience or ask a question..." required></textarea>
+                    <button type="submit" class="btn-primary">Post</button>
+                </form>
+            </div>
+
+            <!-- Community Posts Section -->
+            <div class="posts-section">
+                <h2>Recent Community Posts</h2>
+
+                <!-- Post 1 -->
+                <div class="post">
+                    <div class="post-header">
+                        <img src="images.png" alt="User Avatar" class="avatar">
+                        <div>
+                            <h3>John Doe</h3>
+                            <p class="post-date">September 25, 2024</p>
+                        </div>
+                    </div>
+                    <p class="post-content">I've been struggling to maintain a consistent workout routine. Any tips from the community?</p>
+                    <div class="post-replies">
+                        <!-- Reply 1 -->
+                        <div class="reply">
+                            <img src="images.png" alt="User Avatar" class="avatar">
+                            <div>
+                                <h4>Sarah Smith</h4>
+                                <p class="reply-content">Try setting smaller, achievable goals first! I started with just 10 minutes a day and built up from there. You got this!</p>
+                            </div>
+                        </div>
+                        <!-- Reply 2 -->
+                        <div class="reply">
+                            <img src="images.png" alt="User Avatar" class="avatar">
+                            <div>
+                                <h4>Michael Johnson</h4>
+                                <p class="reply-content">Consistency is key! Don't be too hard on yourself, celebrate small victories.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add a reply form -->
+                    <form class="reply-form">
+                        <input type="text" name="reply" placeholder="Write a reply..." required>
+                        <button type="submit" class="btn-secondary">Reply</button>
+                    </form>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="post">
+                    <div class="post-header">
+                        <img src="images.png" alt="User Avatar" class="avatar">
+                        <div>
+                            <h3>Emily Davis</h3>
+                            <p class="post-date">September 20, 2024</p>
+                        </div>
+                    </div>
+                    <p class="post-content">What are some healthy snack options that I can have post-workout?</p>
+                    <div class="post-replies">
+                        <!-- Reply 1 -->
+                        <div class="reply">
+                            <img src="images.png" alt="User Avatar" class="avatar">
+                            <div>
+                                <h4>Jessica Brown</h4>
+                                <p class="reply-content">I love having a banana with peanut butter after a workout. It's quick and keeps me energized!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add a reply form -->
+                    <form class="reply-form">
+                        <input type="text" name="reply" placeholder="Write a reply..." required>
+                        <button type="submit" class="btn-secondary">Reply</button>
+                    </form>
+                </div>
+
+                <!-- Load More Posts Button -->
+                <button class="btn-primary load-more">Load More Posts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Student Fitness & Welfare. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
